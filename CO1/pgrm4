@@ -1,0 +1,73 @@
+INLINE CSS :
+<html>
+ <head>
+ <title>INLINE</title>
+ </head>
+ <body>
+ <br><h1 style="background-color: blue; color: white; text-align: center;">CLOUD
+COMPUTNG</h1><br>
+ <center><img src="cloud.jpg"></center><br>
+ <h3 style="color: blue;">What is Cloud Computing?</h3>
+ <p style="color: blue;">Cloud Computing is defined as storing and accessing of data and
+computing services over the internet. It doesn't store any data on your personal computer. It is the
+on-demand availability of computer services like servers, data storage, networking, databases, etc.
+The main purpose of cloud computing is to give access to data centers to many users. Users can also
+access data from a remote server.
+ Examples of Cloud Computing Services:
+ AWS, Azure, Google Cloud</p>
+ </body>
+ </html>
+ 
+ INTERNAL CSS :
+<html>
+ <head>
+ <title>INtERNAL</title>
+ <style>
+ h1{background-color: blue; color:white;text-align:
+center;}
+ h3{color: blue;}
+ p{color: blue;}
+ </style>
+ </head>
+ <body>
+ <br><h1>CLOUD COMPUTNG</h1><br>
+ <center><img src="cloud.jpg"></center><br>
+ <h3>What is Cloud Computing?</h3>
+ <p>Cloud Computing is defined as storing and accessing
+of data and computing services over the internet. It doesn't
+store any data on your personal computer. It is the ondemand availability of computer services like servers, data
+storage, networking, databases, etc. The main purpose of
+cloud computing is to give access to data centers to many
+users. Users can also access data from a remote server.
+ Examples of Cloud Computing Services:
+ AWS, Azure, Google Cloud</p>
+ </body>
+ </html>
+ 
+ EXTERNAL CSS :
+External.html :
+<html>
+ <head>
+ <link type="text/css" rel="stylesheet"
+href="external.css">
+ <title>EXTERNAL</title>
+
+ </head>
+ <body>
+ <br><h1>CLOUD COMPUTNG</h1><br>
+ <center><img src="cloud.jpg"></center><br>
+ <h3>What is Cloud Computing?</h3>
+ <p>Cloud Computing is defined as storing and accessing
+of data and computing services over the internet. It doesn't
+store any data on your personal computer. It is the ondemand availability of computer services like servers, data
+storage, networking, databases, etc. The main purpose of
+cloud computing is to give access to data centers to many
+users. Users can also access data from a remote server.
+ Examples of Cloud Computing Services:
+ AWS, Azure, Google Cloud</p>
+ </body>
+ </html>
+External.css :
+h1{background-color: blue; color:white;text-align: center;}
+h3{color: blue;}
+p{color: blue;}
