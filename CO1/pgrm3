@@ -1,0 +1,30 @@
+3. CREATE A HTML PAGE WITH DIFFERENT TYPES OF FRAMES
+SUCH AS FLOATING FRAME,NAVIGATION FRAME
+<html>
+ <head>
+ <title>HTML Frames</title>
+ </head>
+ <frameset cols = "25%,50%,25%">
+ <frame name = "left" src = "nav.html" />
+ <frame name = "center" src = "basic.html" />
+ <frame name = "right" src = "floating.html" />
+ </frameset>
+</html>
+
+Nav.html:
+<html>
+ <head>
+ <title>link</title>
+ <body>
+ <a href="table.html"><b>CICK TO OPEN TABLE
+PAGE</b></a><br><br>
+ <a href="image.html"><b>CICK TO OPEN IMAGE
+PAGE</b></a><br><br>
+ </body>
+ </head>
+</html>
+
+Floating.html:
+<html>
+ <iframe src="it.jpg" height="600" width="500"></iframe>
+</html>
