@@ -1,0 +1,34 @@
+1. CREATE AN HTML FILE USING BASIC TAGS
+<html>
+ <head>
+ <title>BASIC TAGS</title>
+ </head>
+ <body bgcolor="grey" style="padding: 20px;">
+ <center><img src="cev.jpg" alt=""></center>
+ <p>The College of Engineering Vadakara is an
+engineering college in Kozhikode district of Kerala,
+established in 1999. The first engineering college under the
+Co-operative Academy of Professional Education,
+Thiruvananthapuram, established by Govt. of Kerala, started
+functioning in June 1999.</p>
+
+ <H3>COURSES OFFERED</H1>
+ <ul>
+ <li>MCA</li>
+ <li>EEE</li>
+ <li>CIVIL</li>
+ <li>MECH</li>
+ </ul>
+ <dl> 
+ <dt><u>MCA</u></dt>
+ <dd>MASTER OF COMPUTER APPLICATION</dd>
+ </dl>
+ <p><i>Master of Computer Applications or MCA is a
+professional degree in computer science. MCA is a three year
+long professional post-graduate degree course for students
+who deeply want to learn computer application
+development. The MCA course is a combination of both
+theoretical and practical knowledge.</i></p>
+
+ </body>
+</html>
